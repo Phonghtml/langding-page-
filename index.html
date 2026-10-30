@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="lo">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>dev-pheng | Landing Page</title>
+  <meta name="description" content="dev-pheng - ນັກພັດທະນາເວັບໄຊ ແລະ ແອັບພລິເຄຊັນ">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="navbar">
+    <div class="container nav-inner">
+      <a href="#" class="logo">dev<span>-pheng</span></a>
+      <button class="menu-toggle" aria-label="ເປີດ/ປິດເມນູ" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="nav-links">
+        <a href="#about">ກ່ຽວກັບ</a>
+        <a href="#skills">ທັກສະ</a>
+        <a href="#projects">ຜົນງານ</a>
+        <a href="#contact" class="btn btn-small">ຕິດຕໍ່</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-inner">
+        <p class="tag reveal">ສະບາຍດີ, ຂ້ອຍແມ່ນ</p>
+        <h1 class="reveal">dev-pheng</h1>
+        <p class="subtitle reveal">
+          ນັກພັດທະນາເວັບໄຊ ແລະ ແອັບພລິເຄຊັນ ທີ່ສ້າງປະສົບການດີຈິຕອນທີ່ສວຍງາມ ໄວ ແລະ ໃຊ້ງານງ່າຍ.
+        </p>
+        <div class="hero-actions reveal">
+          <a href="#projects" class="btn">ເບິ່ງຜົນງານ</a>
+          <a href="#contact" class="btn btn-outline">ຕິດຕໍ່ຂ້ອຍ</a>
+        </div>
+      </div>
+      <div class="blob blob-1"></div>
+      <div class="blob blob-2"></div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="container">
+        <h2 class="section-title">ກ່ຽວກັບຂ້ອຍ</h2>
+        <div class="about-grid">
+          <p class="reveal">
+            ຂ້ອຍມັກສ້າງສິ່ງທີ່ເຮັດວຽກໄດ້ດີ ແລະ ເບິ່ງດີໄປພ້ອມກັນ. ບໍ່ວ່າຈະເປັນເວັບໄຊທຳອິດສຳລັບທຸລະກິດ
+            ຫຼື ແອັບທີ່ຊ່ວຍແກ້ບັນຫາປະຈຳວັນ, ຂ້ອຍເອົາໃຈໃສ່ທຸກລາຍລະອຽດ ຕັ້ງແຕ່ການອອກແບບ ຈົນເຖິງ ໂຄ້ດທີ່ສະອາດ.
+          </p>
+          <ul class="facts reveal">
+            <li><strong>3+</strong> ປີ ປະສົບການ</li>
+            <li><strong>20+</strong> ໂປຣເຈັກ</li>
+            <li><strong>15+</strong> ລູກຄ້າ</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section section-alt">
+      <div class="container">
+        <h2 class="section-title">ທັກສະ</h2>
+        <div class="cards">
+          <article class="card reveal">
+            <div class="icon">&lt;/&gt;</div>
+            <h3>Frontend</h3>
+            <p>HTML, CSS, JavaScript, React ແລະ ການອອກແບບ UI ທີ່ຕອບສະໜອງທຸກໜ້າຈໍ.</p>
+          </article>
+          <article class="card reveal">
+            <div class="icon">{ }</div>
+            <h3>Backend</h3>
+            <p>Node.js, Python, REST API ແລະ ການຈັດການຖານຂໍ້ມູນ.</p>
+          </article>
+          <article class="card reveal">
+            <div class="icon">◎</div>
+            <h3>Tools</h3>
+            <p>Git, Docker, ການ Deploy ແລະ ການຕັ້ງຄ່າ CI/CD ເພື່ອໃຫ້ງານຂຶ້ນໄວ.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="container">
+        <h2 class="section-title">ຜົນງານ</h2>
+        <div class="cards">
+          <article class="project reveal">
+            <div class="project-thumb t1">01</div>
+            <div class="project-body">
+              <h3>ເວັບໄຊຮ້ານຄ້າ</h3>
+              <p>ຮ້ານຄ້າອອນລາຍພ້ອມລະບົບກະຕ່າສິນຄ້າ ແລະ ຊຳລະເງິນ.</p>
+              <span class="badge">HTML · CSS · JS</span>
+            </div>
+          </article>
+          <article class="project reveal">
+            <div class="project-thumb t2">02</div>
+            <div class="project-body">
+              <h3>ແອັບຈັດການວຽກ</h3>
+              <p>ແອັບ To-do ທີ່ຊ່ວຍຕິດຕາມວຽກງານ ແລະ ກຳນົດເວລາ.</p>
+              <span class="badge">React · Node.js</span>
+            </div>
+          </article>
+          <article class="project reveal">
+            <div class="project-thumb t3">03</div>
+            <div class="project-body">
+              <h3>Dashboard ຂໍ້ມູນ</h3>
+              <p>ໜ້າ Dashboard ສະແດງສະຖິຕິ ແລະ ກຣາບແບບເຂົ້າໃຈງ່າຍ.</p>
+              <span class="badge">Python · Chart.js</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section section-alt">
+      <div class="container contact-inner">
+        <h2 class="section-title">ຕິດຕໍ່ພວກເຮົາ</h2>
+        <p class="reveal">ມີໂປຣເຈັກໃນໃຈບໍ? ສົ່ງຂໍ້ຄວາມມາໄດ້ເລີຍ, ຂ້ອຍຈະຕອບກັບໄວທີ່ສຸດ.</p>
+
+        <form id="contactForm" class="contact-form reveal" novalidate>
+          <div class="field">
+            <input type="text" id="name" name="name" placeholder="ຊື່ຂອງທ່ານ" required>
+            <small class="error" id="nameError"></small>
+          </div>
+          <div class="field">
+            <input type="email" id="email" name="email" placeholder="ອີເມວ" required>
+            <small class="error" id="emailError"></small>
+          </div>
+          <div class="field">
+            <textarea id="message" name="message" rows="5" placeholder="ຂໍ້ຄວາມ" required></textarea>
+            <small class="error" id="messageError"></small>
+          </div>
+          <button type="submit" class="btn btn-full">ສົ່ງຂໍ້ຄວາມ</button>
+          <p id="formStatus" class="status" role="status"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p>&copy; <span id="year"></span> dev-pheng. ສະຫງວນສິດທັງໝົດ.</p>
+      <div class="socials">
+        <a href="#" aria-label="GitHub">GitHub</a>
+        <a href="#" aria-label="LinkedIn">LinkedIn</a>
+        <a href="#" aria-label="Facebook">Facebook</a>
+      </div>
+    </div>
+  </footer>
+
+  <button id="toTop" class="to-top" aria-label="ກັບຄືນເທິງສຸດ">↑</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
